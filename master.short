@@ -1,0 +1,21 @@
+interface: 0.0.0.0
+job_cache: True
+file_roots:
+  base:
+    - /srv/salt/base
+  development:
+    - /srv/salt/development
+  production:
+    - /srv/salt/production
+file_ignore_regex:
+  - '/\.git($|/)'
+pillar_roots:
+  base:
+    - /srv/pillar/base
+  development:
+    - /srv/pillar/development
+  production:
+    - /srv/pillar/production
+nodegroups:
+  production: L@cfg02.ren-isac.net,log02.ren-isac.net,wk03.ren-isac.net,code.ren-isac.net,db01.ren-isac.net,polaris.ren-isac.net,roland.ren-isac.net,lists-edge.ren-isac.net,soc.ren-isac.net,wb01.ren-isac.net,wk01.ren-isac.net,wk02.ren-isac.net,cfg02.ren-isac.net
+  development: L@cfg01.dev.ren-isac.net,db01.dev.ren-isac.net,polaris.dev.ren-isac.net,ses-dev.ren-isac.net,sotka.ren-isac.net,wb01.dev.ren-isac.net,wk01.dev.ren-isac.net,wk02.dev.ren-isac.net

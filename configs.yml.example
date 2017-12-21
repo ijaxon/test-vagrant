@@ -1,0 +1,8 @@
+folders:
+  salt_dir: '<put path to salt state dir here>'
+  pillar_dir: '<put path to salt pillar dir here>'
+
+minion:
+  name: '<put FQDN of client host here>'
+  role: '<put server role here>'
+  enviroment: '<put server enviroment here>'

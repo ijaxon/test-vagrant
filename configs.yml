@@ -1,0 +1,7 @@
+#folders:
+#  salt_dir: '/Users/ijackson/Documents/Repos/Ren-Isac/ri-salt'
+#  pillar_dir: '/Users/ijackson/Documents/Repos/Ren-Isac/ri-salt-pillar'
+
+minion:
+  name: 'simple.meinwolke.com'
+

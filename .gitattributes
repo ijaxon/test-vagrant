@@ -1,0 +1,3 @@
+aws.conf filter=git-crypt diff=git-crypt
+configs.yml filter=git-crypt diff=git-crypt
+*.key filter=git-crypt diff=git-crypt
